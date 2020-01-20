@@ -267,6 +267,7 @@ public class GameManager : Singleton<GameManager>
         gameOverPanel.SetActive(true);
     }
 
+    //Check Possible Moves
     private bool IsMovePossible()
     {
         if (emptyTiles.Count > 0)
